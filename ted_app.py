@@ -41,7 +41,7 @@ def ensemble_prediction(trans_pred_proba, tags_pred_proba):
 st.write("""
 # TED Talk Prediction App
 
-This app predicts if a given TED talk will be popular or not (over 1 Mio views over its lifetime)
+This app predicts if a given TED talk will be popular or not (over 1.16 Mio views - median of our training set - over its lifetime)
 based on the transcript and tags of the talk.
 Therefore, the model predicts future popularity based solely on the content of the talk.
 
